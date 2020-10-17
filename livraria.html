@@ -1,0 +1,44 @@
+<!-- Eduardo Fernando Serafim Santos RM: 84492 -->
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livraria</title>
+    <link rel="stylesheet" href="./estilo/estilo.css">
+       
+</head>
+
+<body>
+    <h1>Livraria</h1>
+    
+    <div class="formulario">
+        <form action="">
+            <label for="nomeLivro" class="label">Nome do livro</label>
+            <input type="text" id="nomeLivro" class="inputs" required>
+
+            <label for="preco" class="label">Preço</label>
+            <input type="number" id="preco" class="inputs" required>
+
+            <label for="desconto" class="label">Selecione o desconto</label>
+            <select id="desconto" class="inputs" required>
+                <option value="15">Cliente A</option>
+                <option value="10">Cliente B</option>
+                <option value="7">Cliente C</option>
+                <option value="0">Nenhum</option>
+            </select>
+
+            <button type="submit" class="botao">Efetuar pagamento</button>
+        </form>
+    </div>
+
+    <div id = "elementos">
+       <h2>Informações da compra</h2>
+       
+    </div>
+    
+    <script src="./js/livraria.js"></script>
+</body>
+
+</html>
